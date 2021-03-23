@@ -1,0 +1,90 @@
+body{ 
+margin:0;
+padding:0;
+background:#fff;
+
+}
+.main{
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform:translate (-50%,-50%);
+}
+.google{
+    position:center;
+    width:380px;
+    top:80px;
+}
+.searchb{
+    width: 500px;
+    height:45px;
+    position:absolute;
+    transform: translate(-20%,50%);
+}
+input[type="text"]{
+    position:absolute;
+    width:100%;
+    height:100%;
+    border:1px solid #d5d4d4;
+    left:0;
+    border-radius:50px;
+    padding: 0 40px 0 45px;
+    outline: none;
+    box-shadow: 0 2px 10px -7px #000;
+    font-size: 16px;
+}
+.sbutton{
+    position:relative;
+    top: 100px;
+    text-align: center;
+}
+input[type="button"]{
+    background: #ebe8e8;
+    border:none;
+    padding:8px 20px;
+    margin:10px;
+    color: #4e4d4d;
+    border-radius: 5px;
+    outline:none;
+}
+input[type="button"]:hover{
+    background: #ede8e8;
+    color:#000;
+    box-shadow: 0 0 2px #000;
+}
+nav{
+    float:right;
+    font-family:arial;
+    font-size:18px;
+}
+.navbar{
+color:#444;
+text-decoration: none;
+top: 15px;
+position: relative;
+margin: 5px;
+}
+button{
+color:blue;
+text-decoration: none;
+top: 12px;
+position: relative;
+margin: 5px;
+
+}
+footer {
+
+    background: #f2f2f2;
+    display: inline-block;
+    padding-left: 29px;
+    font-size: 14px;
+    line-height: 39.5px;
+    border: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
